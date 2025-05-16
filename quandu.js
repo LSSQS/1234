@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
- ^https:\/\/api\.qiandurebo\.com\/(v2\/users\/detail\/|iumobile\/apis\/index\.php).* url script-response-body https://raw.githubusercontent.com/Bbvvg/1234/main/quandu.js
+ ^https:\/\/api\.qiandurebo\.com\/(v2\/users\/detail\/|iumobile\/apis\/index\.php).* url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/quandu.js
 
 [mitm] 
 
