@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
- ^https:\/\/w\.liupinyike\.com\/tablet\/api\/(amineIndex|index\/invite\/inlet|class\/hour\/list)\?.* url script-response-body https://raw.githubusercontent.com/Bbvvg/1234/main/zhangshangbeitiels.js
+ ^https:\/\/w\.liupinyike\.com\/tablet\/api\/(amineIndex|index\/invite\/inlet|class\/hour\/list)\?.* url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/zhangshangbeitiels.js
 
 [mitm] 
 
