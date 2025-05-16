@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
- ^https://(appapi.caiyicloud.com)|(m.piaoxingqiu.com)/cyy_gatewayapi/(show/pub/v5/show/) url script-response-body https://raw.githubusercontent.com/Bbvvg/1234/main/pxq.js
+ ^https://(appapi.caiyicloud.com)|(m.piaoxingqiu.com)/cyy_gatewayapi/(show/pub/v5/show/) url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/pxq.js
 
 [mitm] 
 
