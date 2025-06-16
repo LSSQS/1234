@@ -12,11 +12,11 @@ TG频道群：无
 
 [rewrite_local]
 
-^https:\/\/a0c8b51af-wxe17e6efa4c656fcd\.tj\.wxgateway\.com\/shopserver\/v1\/app\/info? url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/paopaomt.js
+^https:\/\/*\.tj\.wxgateway\.com\/shopserver\/v1\/app\/info? url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/paopaomt.js
 
 [mitm] 
 
-hostname = a0c8b51af-wxe17e6efa4c656fcd.tj.wxgateway.com
+hostname = *.tj.wxgateway.com
 
 *******************************/
 
