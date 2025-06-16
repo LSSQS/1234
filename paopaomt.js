@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
-^https:\/\/*\.tj\.wxgateway\.com\/shopserver\/v1\/app\/info? url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/paopaomt.js
+^https:\/\/.*?\.tj\.wxgateway\.com\/shopserver\/v1\/app\/info? url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/paopaomt.js
 
 [mitm] 
 
