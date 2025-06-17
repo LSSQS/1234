@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
- ^https:\/\/.*?\.amemv\.com\/(?:aweme\/v2\/(?:namek\/user\/order\/create|poi\/user\/trade\/product\/info)|life\/v1\/dito\/prepare_page\/init|data\/v1\/life\/general\/facade\/get_show_sku_info)\/?\??.*$ url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/duoyin.js
+^https:\/\/.*?\.amemv\.com\/(?:aweme\/v2\/(?:namek\/user\/order\/create|poi\/user\/trade\/product\/info)|life\/v1\/dito\/prepare_page\/init|data\/v1\/life\/general\/facade\/get_show_sku_info)\/?\??.*$ url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/duoyin.js
 
 [mitm] 
 
