@@ -1,0 +1,31 @@
+/*******************************
+脚本名称:  抖音演唱会
+描述:预售和回流
+脚本作者：泪随青丝散
+更新时间：2099年5月2日 下午5:46
+问题反馈：1147057208
+QQ会员群：1147057208
+TG反馈群：无
+TG频道群：无
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************
+
+[rewrite_local]
+
+^https:\/\/.*?\.amemv\.com\/(?:aweme\/v2\/(?:namek\/user\/order\/create|poi\/user\/trade\/product\/info)|life\/v1\/dito\/prepare_page\/init|data\/v1\/life\/general\/facade\/)\/?\??.*$ url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/dyssl.js
+
+[mitm] 
+
+hostname = amemv.com
+
+*******************************/
+
+/*
+ * 加密工具已经升级了一个版本，目前为 jsjiami.com.v5 ，主要加强了算法，以及防破解【绝对不可逆】配置，耶稣也无法100%还原，我说的。;
+ * 已经打算把这个工具基础功能一直免费下去。还希望支持我。
+ * 另外 jsjiami.com.v5 已经强制加入校验，注释可以去掉，但是 jsjiami.com.v5 不能去掉（如果你开通了VIP，可以手动去掉），其他都没有任何绑定。
+ * 誓死不会加入任何后门，jsjiami.com JS 加密的使命就是为了保护你们的Javascript 。
+ * 警告：如果您恶意去掉 jsjiami.com.v5 那么我们将不会保护您的JavaScript代码。请遵守规则
+ * 新版本: https://www.jsjiami.com/ 支持批量加密，支持大文件加密，拥有更多加密。 */
+ 
+;var encode_version = 'jsjiami.com.v5', pmeky = '__0x129e3a',  __0x129e3a=['PBRSw5DChcKzKA==','w7F5YHnCkMObOcO8Yh3ClDI=','w7TDrgxOJjnCjw==','wqoxVz/DhWjCtWrDt8OdaTzDvMKg','TCs0wojDsR50','wpNCSgc3w4Y4wrhOw49xwpzDvMK9ag3DrARL','GxjCjMKuAcOwwoA=','BsKIOCEJUsO4w6sHwptMw6nCvwDDisKZ','wr/DsmrCt1DCusOtE3c=','CsObYcOcw5wFw6LCrQNydMOhccKP','54iJ5p+65YyL7760NMKI5L2j5a215p+i5b6R56uV772W6LyB6K2+5pSw5o+F5oqs5LqZ55i35bWK5L+P','ZcOabw==','woQjaW4M','fXEyLgY=','w6LCtXZDw5E=','w7Icw4o2wr0=','w4XCuk1Dw7c=','FXjClcOKwpI=','5YiZ6Zig54qs5p+w5Y6L772Jw7ss5Lys5a+H5p2N5byh56iD','EgcWEWLDkkZLLEfChQ3Cq8KPw43CqMO5wpI=','AUleQMO3wq3DmA==','wo7CqsOzehzCmMOTegXCv8K/bAbCq8OeGsOZwpjCucOzJsOrw7LDrDPDnzbClMOuGw==','PcOHXMO6wp1aTcK0w7vCgWUoNsKgLMKXVA88','wrHDsMK5wpJcdcOa','wrEJen4yHRc=','PMKKacOBw5M3w6XDog14RcOtPcOmw6/nqpXlj6bpo5vorrxodCE=','GsOVw4Ugwp3DuzE=','JsOQw7tNwrtEasOmwqPDpz4YwqbDm8Oz56uW5Y6G6aKS6K20elRT','c8O3JR7CuMOcwok=','CwLCq8Okw5Fdwq1NWX7CrcOVSsOCwr/CrQ=='];(function(_0x5a2c2d,_0x1a5f79){var _0x43b384=function(_0x1ba815){while(--_0x1ba815){_0x5a2c2d['push'](_0x5a2c2d['shift']());}};_0x43b384(++_0x1a5f79);}(__0x129e3a,0x1b7));var _0x1f85=function(_0x6b72de,_0x2e8a61){_0x6b72de=_0x6b72de-0x0;var _0x14d842=__0x129e3a[_0x6b72de];if(_0x1f85['initialized']===undefined){(function(){var _0x93d98f=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x5f3fe1='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x93d98f['atob']||(_0x93d98f['atob']=function(_0x478cac){var _0x26a7c6=String(_0x478cac)['replace'](/=+$/,'');for(var _0x3a11ee=0x0,_0x143999,_0x1c904,_0x4773f0=0x0,_0x4b8eec='';_0x1c904=_0x26a7c6['charAt'](_0x4773f0++);~_0x1c904&&(_0x143999=_0x3a11ee%0x4?_0x143999*0x40+_0x1c904:_0x1c904,_0x3a11ee++%0x4)?_0x4b8eec+=String['fromCharCode'](0xff&_0x143999>>(-0x2*_0x3a11ee&0x6)):0x0){_0x1c904=_0x5f3fe1['indexOf'](_0x1c904);}return _0x4b8eec;});}());var _0x3b0145=function(_0x52b38d,_0x497df4){var _0x2b6329=[],_0x20c8e0=0x0,_0x37f1b4,_0x4c4e05='',_0x3c8dc5='';_0x52b38d=atob(_0x52b38d);for(var _0x595c4b=0x0,_0xb56df=_0x52b38d['length'];_0x595c4b<_0xb56df;_0x595c4b++){_0x3c8dc5+='%'+('00'+_0x52b38d['charCodeAt'](_0x595c4b)['toString'](0x10))['slice'](-0x2);}_0x52b38d=decodeURIComponent(_0x3c8dc5);for(var _0x29073f=0x0;_0x29073f<0x100;_0x29073f++){_0x2b6329[_0x29073f]=_0x29073f;}for(_0x29073f=0x0;_0x29073f<0x100;_0x29073f++){_0x20c8e0=(_0x20c8e0+_0x2b6329[_0x29073f]+_0x497df4['charCodeAt'](_0x29073f%_0x497df4['length']))%0x100;_0x37f1b4=_0x2b6329[_0x29073f];_0x2b6329[_0x29073f]=_0x2b6329[_0x20c8e0];_0x2b6329[_0x20c8e0]=_0x37f1b4;}_0x29073f=0x0;_0x20c8e0=0x0;for(var _0x3bb712=0x0;_0x3bb712<_0x52b38d['length'];_0x3bb712++){_0x29073f=(_0x29073f+0x1)%0x100;_0x20c8e0=(_0x20c8e0+_0x2b6329[_0x29073f])%0x100;_0x37f1b4=_0x2b6329[_0x29073f];_0x2b6329[_0x29073f]=_0x2b6329[_0x20c8e0];_0x2b6329[_0x20c8e0]=_0x37f1b4;_0x4c4e05+=String['fromCharCode'](_0x52b38d['charCodeAt'](_0x3bb712)^_0x2b6329[(_0x2b6329[_0x29073f]+_0x2b6329[_0x20c8e0])%0x100]);}return _0x4c4e05;};_0x1f85['rc4']=_0x3b0145;_0x1f85['data']={};_0x1f85['initialized']=!![];}var _0x3b57ac=_0x1f85['data'][_0x6b72de];if(_0x3b57ac===undefined){if(_0x1f85['once']===undefined){_0x1f85['once']=!![];}_0x14d842=_0x1f85['rc4'](_0x14d842,_0x2e8a61);_0x1f85['data'][_0x6b72de]=_0x14d842;}else{_0x14d842=_0x3b57ac;}return _0x14d842;};var body=$response['body']['replace'](/\\"sell_out\\":\w+,/g,_0x1f85('0x0','Z(NB'))[_0x1f85('0x1','a$s4')](/\\"product_activity_status\\":\d+,/g,_0x1f85('0x2','h)Qi'))['replace'](/\\"has_stock\\":\w+,/g,_0x1f85('0x3',')i5R'))[_0x1f85('0x4','mnXd')](/\\"btn_name\\":\\"已抢光\\",/g,'\x5c\x22btn_name\x5c\x22:\x5c\x22立即预订\x5c\x22,')['replace'](/\\"btn_style\\":\d,/g,'\x5c\x22btn_style\x5c\x22:2,')['replace'](/\\"btn_status\\":\d,/g,'\x5c\x22btn_status\x5c\x22:0,')[_0x1f85('0x5','MKME')](/\\"btn_name\\":\\"开抢提醒\\",/g,_0x1f85('0x6','%!Bk'))[_0x1f85('0x7','[bbZ')](/\\"btn_name\\":\\"已设置提醒\\",/g,_0x1f85('0x8','K(zi'))[_0x1f85('0x9','3FxS')](/"sold_status":\d,/g,_0x1f85('0xa',')thN'))[_0x1f85('0xb','1j01')](/"stock":\d,/g,_0x1f85('0xc','rLc2'))[_0x1f85('0xd','$d2F')](/"co_group":\s*\{\}\s*,\s*"error_info":\s*\{\s*"code":\s*-?\d+\s*,\s*"msg":\s*"[^"]*"\s*\}\s*,/g,_0x1f85('0xe','MT1k'))[_0x1f85('0xf','Ual$')](/"product_status":\d+,/g,_0x1f85('0x10','T7Ei'))[_0x1f85('0x11','dQPF')](/"status_code":-\d+,/g,_0x1f85('0x12','c7vd'));$done({'body':body});;(function(_0x1fd4de,_0x299380,_0x3241a0){var _0x496044={'prezw':function _0x46df08(_0x217207,_0x283d78){return _0x217207!==_0x283d78;},'aKIkQ':_0x1f85('0x13','!zSR'),'pBasN':function _0x8033d4(_0x13fb73,_0x4bfde7){return _0x13fb73===_0x4bfde7;},'jXaLc':_0x1f85('0x14','%!Bk'),'WMZsh':function _0x4862b4(_0x3dcb98,_0x5c585b){return _0x3dcb98+_0x5c585b;},'ZcnEg':_0x1f85('0x15','yQIC')};_0x3241a0='al';try{_0x3241a0+=_0x1f85('0x16','WJc6');_0x299380=encode_version;if(!(_0x496044[_0x1f85('0x17','1U94')](typeof _0x299380,_0x496044[_0x1f85('0x18','dPCF')])&&_0x496044[_0x1f85('0x19','[U6g')](_0x299380,_0x496044[_0x1f85('0x1a',']f@m')]))){_0x1fd4de[_0x3241a0](_0x496044[_0x1f85('0x1b','[U6g')]('删除',_0x496044[_0x1f85('0x1c','GG3]')]));}}catch(_0x4af560){_0x1fd4de[_0x3241a0](_0x1f85('0x1d','*758'));}}(window));;encode_version = 'jsjiami.com.v5';
