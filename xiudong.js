@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
-^https:\/\/api3\.showstart\.com\/(order\/wap\/order\/confirm\/v2|wap\/activity\/V2\/ticket\/list)$ url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/xiudong.js
+ ^https:\/\/api3\.showstart\.com\/appv3\/app\/activity\/V2\/ticket\/list url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/xiudong.js
 
 [mitm] 
 
