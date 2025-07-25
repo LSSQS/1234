@@ -1,5 +1,5 @@
 /*******************************
-脚本名称:  纷玩岛
+脚本名称:  纷玩岛候补最终版
 描述:预售和回流
 脚本作者：泪随青丝散
 更新时间：2099年5月2日 下午5:46
@@ -35,6 +35,6 @@ var body = $response.body.replace(/"ashShowDesc":".*?"/g,'"ashShowDesc":""')
 .replace(/"tags":\[\{\"type":12,\"tag":"候补人数已满"\}\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
 .replace(/"tags":\[\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
 .replace(/"tags":\[\{\"type":4,\"tag":"缺票登记"\}\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
-.replace(/"tags":\[\{\"type":52,\"tag":"候补人数已满"\}\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
+.replace(/"type":52,"tag":"候补人数已满"/g,'"type":51,"tag":"可候补"')
 
 $done({ body });
