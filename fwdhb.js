@@ -35,4 +35,6 @@ var body = $response.body.replace(/"ashShowDesc":".*?"/g,'"ashShowDesc":""')
 .replace(/"tags":\[\{\"type":12,\"tag":"候补人数已满"\}\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
 .replace(/"tags":\[\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
 .replace(/"tags":\[\{\"type":4,\"tag":"缺票登记"\}\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
+.replace(/"tags":\[\{\"type":52,\"tag":"候补人数已满"\}\]\,/g,'"tags":[{"type":51,"tag":"可候补"}],')
+
 $done({ body });
