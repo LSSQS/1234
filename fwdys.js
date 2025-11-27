@@ -12,11 +12,11 @@ TG频道群：无
 
 [rewrite_local]
 
- ^https://(api.livelab.com.cn)/performance/app/project/(dynamic/get_project_info|get_performs|seatPlanStatus|get_project_info) url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/fwdys.js
+ ^https://(*.livelab.com.cn)/performance/app/project/(dynamic/get_project_info|get_performs|seatPlanStatus|get_project_info) url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/fwdys.js
 
 [mitm] 
 
-hostname = api.livelab.com.cn
+hostname = *.livelab.com.cn
 
 *******************************/
 
