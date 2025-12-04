@@ -12,7 +12,7 @@ TG频道群：无
 
 [rewrite_local]
 
- ^https://(api.livelab.com.cn)/performance/app/project/(dynamic/get_project_info|get_performs|seatPlanStatus|get_project_info) url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/dyxcxfwdys.js
+ ^https://(api.livelab.com.cn)/performance/app/project/(dynamic/get_project_info|get_performs|seatPlanStatus|get_project_info) url script-response-body https://raw.githubusercontent.com/LSSQS/1234/main/dyfwdys.js
 
 [mitm] 
 
